@@ -1,0 +1,57 @@
+body {
+    background: url("./images/brickhouse.jpg");
+    padding-top: 90px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Navigation Bar */
+.nav {
+    background: rgba(255, 255, 255, 0.2);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 30px;
+    border-bottom: transparent;
+    border-bottom-right-radius: 80%;
+    text-align: center;
+}
+.nav-tabs>li>a {
+    color: #000000;
+    font-size: 20px;
+    background-color: transparent;
+    border: 0px;
+    padding: 0px 40px;
+}
+.nav-tabs>li>a:hover {
+    background: none;
+    color: #000000;
+    border-bottom: 3px solid black;
+}
+.nav-tabs>li.active>a:focus{
+    background: none;
+    color: #000000;
+    border: 2px solid black;
+}
+/* HOME PAGE */
+.img {
+    background: url("./images/reddress.gif");
+    min-height: 550px; 
+    font-size: 40px; 
+    padding: 200px;
+    color: red;
+}
+.about {
+    margin: 10px 150px;
+    padding: 10px 100px;
+    background: rgba(255, 255, 255, 0.5);
+}
+.meetguru {
+    font-size: 30px;
+    color: red;
+}
+.aboutguru {
+    margin: 20px;
+    font-size: 16px;
+}

@@ -1,19 +1,19 @@
 import React from "react";
+import { Link, Route } from "react-router-dom";
+import Fashion from "./Fashion";
+import Boys from "./Boys";
+import '../style.css';
 
-const Advice = () =>
+const Advice = props =>
   <div>
-    <h1>ADVICE</h1>
-    {/* 5 Signs A College Guy Is Into You! */}
-    <div>
-      <h3>5 Signs A College Guy Is Into You! </h3>
-      <ul>
-        <li>1) He approaches you to start a conversation  </li>
-        <li> </li>
-        <li> </li>
-        <li> </li>
-        <li> </li>
-    </ul>
-    </div>
+    <Link to={`${props.match.url}/fashion`} className="btn btn-default">
+    Learn More
+    </Link>{" "}
+    <Link to={`${props.match.url}/boys`} className="btn btn-default">
+    Learn More
+    </Link>{" "}
+    <Route exact path={`${props.match.url}/fashion`} component={Fashion} />
+    <Route exact path={`${props.match.url}/boys`} component={Boys} />
   </div>;
-  
+
 export default Advice;
