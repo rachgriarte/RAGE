@@ -1,14 +1,9 @@
 body {
-    background: url("./images/brickhouse.jpg");
-    padding-top: 90px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    margin-top: 85px;
 }
 /* Navigation Bar */
 .nav {
-    background: rgba(255, 255, 255, 0.2);
+    background: #B55050;
     position: fixed;
     top: 0;
     width: 100%;
@@ -35,6 +30,13 @@ body {
     border: 2px solid black;
 }
 /* HOME PAGE */
+.body {
+    background: url("./images/brickhouse.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .img {
     background: url("./images/reddress.gif");
     min-height: 550px; 
@@ -45,7 +47,7 @@ body {
 .about {
     margin: 10px 150px;
     padding: 10px 100px;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.8);
 }
 .meetguru {
     font-size: 30px;
@@ -54,4 +56,74 @@ body {
 .aboutguru {
     margin: 20px;
     font-size: 16px;
+}
+.img2 {
+    background: url("./images/blackdress.gif");
+    min-height: 550px; 
+}
+/* Advice Page */
+.btn {
+    background: #F5F2F2;
+    padding: 15px;
+    position: fixed;
+}
+
+/* FASHION */
+.text-center {
+    color: #502C02;
+    background: #FFC400;
+    padding: 50px;
+    margin-bottom: 30px;
+}
+.fall {
+    background: url("./images/fall1.jpg");
+}
+.fall1 {
+    background: url("./images/fall.jpg");
+}
+.fall2 {
+    background: url("./images/fall2.jpg");
+}
+.fall3 {
+    background: url("./images/fall3.jpg");
+}
+.fall4 {
+    background: url("./images/fall4.jpg");
+}
+.fall, .fall2, .fall4 {
+    min-height: 350px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5px 130px;
+}
+.fall1, .fall3 {
+    min-height: 350px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5px 150px;
+}
+p {
+    font-size: 20px;
+    text-align: center;
+    color: #474805;
+    margin: 60px 0px;
+}
+/* BOYS */
+.whole {
+    background: url("./images/love.gif");
+    min-height: 350px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.spice {
+    background: rgba(56, 36, 36, 0.8);
+    border: 105px solid #701E1E;
+    color: white;
+    padding: 30px;
 }

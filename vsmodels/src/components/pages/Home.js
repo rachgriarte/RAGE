@@ -2,7 +2,7 @@ import React from "react";
 import '../style.css';
 
 const Home = () =>
-  <div>
+  <div className="body">
     <div className="img">Romantic Advice   <b>| R A G E |</b>   Given To Everyone</div> 
     <div className="about">
     <h2 className="meetguru">Meet The Guru</h2>
@@ -16,9 +16,9 @@ const Home = () =>
       Rach not only loves the psychology behind dating, she understands that some of the key elements in making yourself the ultimate woman is the way you present yourself. Having a fashion sense will keep you unique from everyone and help you flourish into a beautiful woman. 
       <br/><br/>
       With these tips and tricks available to you, you will learn many valuable lessons that you can include in your personal life! 
-      Don't forget to check out her quirky personality - read up on some of her blogs!
     </p>
     </div>
+    <div className="img2"></div>
   </div>;
 
 export default Home;

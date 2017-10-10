@@ -6,13 +6,17 @@ import '../style.css';
 
 const Advice = props =>
   <div>
-    <Link to={`${props.match.url}/fashion`} className="btn btn-default">
-    Learn More
-    </Link>{" "}
-    <Link to={`${props.match.url}/boys`} className="btn btn-default">
-    Learn More
-    </Link>{" "}
+    <div className="fashionbutton">
+      <Link to={`${props.match.url}/fashion`} className="btn btn-default">
+      Fashion Advice
+      </Link>{" "}
+    </div>
     <Route exact path={`${props.match.url}/fashion`} component={Fashion} />
+    <div className="boysbutton">
+      <Link to={`${props.match.url}/boys`} className="btn btn-default">
+      Boy Advice
+      </Link>{" "}
+    </div>
     <Route exact path={`${props.match.url}/boys`} component={Boys} />
   </div>;
 
