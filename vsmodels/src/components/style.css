@@ -66,8 +66,14 @@ body {
     background: #F5F2F2;
     padding: 15px;
     position: fixed;
+    text-align: center;
 }
-
+.adviceIntro {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    color: #B55050;
+}
 /* FASHION */
 .text-center {
     color: #502C02;
@@ -109,7 +115,7 @@ body {
 p {
     font-size: 20px;
     text-align: center;
-    color: #474805;
+    color: #EB00C4;
     margin: 60px 0px;
 }
 /* BOYS */
@@ -123,7 +129,12 @@ p {
 }
 .spice {
     background: rgba(56, 36, 36, 0.8);
-    border: 105px solid #701E1E;
+    border: 20px solid #070307;
     color: white;
     padding: 30px;
+    line-height: 30px;
+    margin: 70px;
+}
+h3 {
+    text-align: center;
 }
